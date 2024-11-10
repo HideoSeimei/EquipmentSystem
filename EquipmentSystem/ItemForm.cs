@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace EquipmentSystem
 {
-    public partial class Form4 : Form
+    public partial class ItemForm : Form
     {
-        public Form4()
+        public ItemForm()
         {
             InitializeComponent();
         }
 
         private void InitializeComponent()
         {
-            ComponentResourceManager resources = new ComponentResourceManager(typeof(Form4));
+            ComponentResourceManager resources = new ComponentResourceManager(typeof(ItemForm));
             splitContainer1 = new SplitContainer();
             label17 = new Label();
             label2 = new Label();
