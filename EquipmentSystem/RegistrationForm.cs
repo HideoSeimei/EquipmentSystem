@@ -10,34 +10,39 @@ using System.Windows.Forms;
 
 namespace EquipmentSystem
 {
-    public partial class Form3 : Form
+    public partial class RegistrationForm : Form
     {
-        public Form3()
+        public RegistrationForm()
         {
             InitializeComponent();
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void label17_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
