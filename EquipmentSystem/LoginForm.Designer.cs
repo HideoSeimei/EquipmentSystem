@@ -87,7 +87,7 @@
             textBox1.ForeColor = Color.Black;
             textBox1.Location = new Point(59, 17);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(253, 23);
+            textBox1.Size = new Size(253, 19);
             textBox1.TabIndex = 1;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
@@ -98,7 +98,7 @@
             label2.ForeColor = Color.SeaGreen;
             label2.Location = new Point(125, 202);
             label2.Name = "label2";
-            label2.Size = new Size(251, 23);
+            label2.Size = new Size(207, 19);
             label2.TabIndex = 5;
             label2.Text = "Borrowing Equipment System";
             // 
@@ -121,7 +121,7 @@
             textBox2.ForeColor = Color.Black;
             textBox2.Location = new Point(59, 17);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(252, 23);
+            textBox2.Size = new Size(252, 19);
             textBox2.TabIndex = 1;
             // 
             // pictureBox4
@@ -146,6 +146,7 @@
             button1.TabIndex = 2;
             button1.Text = "Log in";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -171,14 +172,14 @@
             linkLabel1.LinkColor = Color.SeaGreen;
             linkLabel1.Location = new Point(189, 549);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(125, 20);
+            linkLabel1.Size = new Size(100, 15);
             linkLabel1.TabIndex = 8;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Forgot Password?";
             // 
-            // Form1
+            // LoginForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Menu;
             ClientSize = new Size(489, 648);
@@ -193,7 +194,7 @@
             ForeColor = SystemColors.WindowText;
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
-            Name = "Form1";
+            Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "MIS Borrowing Equipment";
             Load += Form1_Load;

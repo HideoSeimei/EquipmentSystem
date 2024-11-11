@@ -479,6 +479,7 @@
             button1.TabIndex = 8;
             button1.Text = "BORROW";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label8
             // 
@@ -568,14 +569,14 @@
             label1.TabIndex = 0;
             label1.Text = "Equipments";
             // 
-            // Form3
+            // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(902, 428);
             Controls.Add(splitContainer1);
             Margin = new Padding(3, 2, 3, 2);
-            Name = "Form3";
+            Name = "MainForm";
             Text = "Form3";
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel1.PerformLayout();
